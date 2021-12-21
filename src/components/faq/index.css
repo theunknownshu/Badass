@@ -1,0 +1,62 @@
+.accord-button{
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  color:#e24146
+}
+
+.accord-card {
+  border-radius: 12px;
+  border: solid 1px #e24146;
+  position: relative;
+  margin: 24px;
+  padding: 16px;
+  color: white;
+  background-color: #202433;
+  transition: 1s;
+}
+
+.panel {
+  padding: 0 18px;
+  overflow: hidden;
+}
+
+.faq-p {
+  color: #a8a2a1;
+  font-family: "Comic Sans MS";
+  padding: 24px;
+  text-align: center;
+}
+
+.icons-faq {
+  position: absolute;
+  top: 24px;
+  right: 0px;
+}
+
+@media screen and (max-width: 540px) {
+
+  .accord-card {
+    margin: 12px;
+    padding: 8px;
+  }
+  
+  .panel {
+    padding: 0 8px;
+    overflow: hidden;
+  }
+  
+  .faq-p {
+    padding: 12px;
+  }
+  
+  .icons-faq {
+    top: 12px;
+    right: 0px;
+  }
+  .accord-card {
+    margin: 6px;
+    padding: 8px;
+  }
+}
+ 

@@ -1,0 +1,13 @@
+.rounded-image{
+  border-radius: 20px;
+  width: 100%;
+  padding: 8px;
+}
+
+@media screen and (max-width: 579px) {
+  .rounded-image{
+    border-radius: 8px;
+    width: 100%;
+    padding: 24px;
+  }  
+}

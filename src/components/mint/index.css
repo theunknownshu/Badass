@@ -1,0 +1,135 @@
+.Minter {
+  padding: 8px ;
+  text-align: center;
+  color: white;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+}
+
+.mintArea {
+  text-align: left;
+}
+
+#mintButton {
+  width: 100%;
+  padding: 8px;
+  font-size: medium;
+  border: none;
+  border-radius: 8px;
+  background-color: #ab8742;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.4vw;
+}
+
+#mintButton2 {
+  width: 45%;
+  padding: 8px;
+  margin: 0px 8px;
+  font-size: medium;
+  border: none;
+  border-radius: 8px;
+  background-color: #ab8742;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8vw;
+}
+
+
+.mint-min1{
+  font-weight: bold;
+  font-size: 2.4vw;
+  color: #ab8742;
+  text-align: center;
+  font-family: 'Comic Sans MS';
+  padding: 8px;
+}
+
+
+.mintArea h3{
+  font-size: 2vw;
+  padding: 8px;
+}
+
+.status {
+  padding: 32px;
+}
+
+.progress {
+  width: 100%;
+  height: 8px;
+  background: #e1e4e8;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.mintArea {
+  width: 90%;
+  margin: auto;
+}
+
+.progress-bar {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg,#b34bff,#ea4aaa 17%,#b34bff 34%,#01feff 51%,#ffd33d 68%,#ea4aaa 85%,#e4ecfd );
+  background-size: 300% 100%;
+  animation: progress-animation 2s linear infinite;
+}
+
+@media (max-width: 2142px) {
+  .mintArea h3{
+    font-size: 1.6vw;
+  }
+  #mintButton {
+    font-size: 2vw;
+  }
+}
+
+
+@media (max-width: 1680px) {
+  .mintArea h3{
+    padding: 2px;
+  }
+  .mint-min1 {
+    padding: 2px;
+  }
+}
+@media (max-width: 1380px) {
+  .mintArea h3{
+    font-size: 1.3vw;
+    padding: 0px;
+    margin: 0px;
+  }
+  .mint-min1 {
+    font-size: 1.6vw;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 760px) {
+
+  .mintArea h3{
+    font-size: 24px;
+    padding: 2px;
+  }
+  .mint-min1 {
+    font-size: 32px;
+    padding: 2px;
+  }
+  #mintButton {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mintArea {
+    width: 100%;
+  }
+  .mintArea h3{
+    font-size: 20px;
+    padding: 2px;
+  }
+  .mint-min1 {
+    font-size: 24px;
+    padding: 2px;
+  }
+}

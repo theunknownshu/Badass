@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.time-header{
+  text-align: center;
+  position: absolute;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.body {
+  scrollbar-width: thin;     
+  scrollbar-color: #202433 #a8a2a1;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #202433;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #a8a2a1;
+  border-radius: 20px;
+  border: 3px solid #202433;
+}
+
+.footer-p {
+  text-align: center;
+  color: #a8a2a1;
+  font-weight: bold;
+  font-size: 1.3em;
+  font-family: 'Comic Sans MS';
+  padding: 24px;
+}
+
+
+/* @media screen and (max-width: 1023px) {
+  .time-header{
+    width: 80%;
+  }
+  .time-header-text{
+    font-size: 32px!important;
+  }
+ } */
+
+ 
+@media screen and (max-width: 1023px) {
+  .time-header{
+    margin-left: 24px;
+    position: static;
+    text-align: center;
+  }
+ }
+
+  
+@media screen and (max-width: 660px) {
+  .time-header{
+    margin-left: 24px;
+    position: static;
+    text-align: left;
+  }
+ }

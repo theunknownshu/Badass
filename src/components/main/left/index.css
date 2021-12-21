@@ -1,0 +1,97 @@
+.vertical-center {
+  width: 100%;
+  padding: 24px;
+}
+
+.welcome-to{
+  color: white;
+  font-size: 4vw;
+  text-align: center;
+  font-family: 'Segoe Print';
+}
+
+.kangaroos{
+  font-weight: bold;
+  font-size: 5vw;
+  color: white;
+  text-align: center;
+  font-family: 'Comic Sans MS';
+}
+
+.solana {
+  color: #bd00ff;
+  font-family: "Franklin Gothic Medium";
+  text-align: center;
+  font-weight: bold;
+  font-size: 3vw;
+}
+
+.min1{
+  font-weight: bold;
+  font-size: 3.5vw;
+  color: #ab8742;
+  text-align: center;
+  font-family: 'Comic Sans MS';
+}
+
+@media screen and (max-width: 1942px) {
+  
+  .vertical-center{
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  
+  .vertical-center h2{
+    margin: 0px;
+    padding: 0px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  
+  .welcome-to{
+    font-size: 60px;
+  }
+
+  .kangaroos{
+    font-size: 72px;
+  }
+
+  .solana {
+    font-size: 54px;
+  }
+
+  .min1{
+    font-size: 66px;
+  }
+
+}
+
+@media screen and (max-width: 479px) {
+  .welcome-to{
+    font-size: 48px;
+  }
+
+  .kangaroos{
+    font-size: 54px;
+  }
+
+  .solana {
+    font-size: 44px;
+  }
+
+  .min1{
+    font-size: 48px;
+  }
+  .vertical-center {
+    width: 100%;
+    margin-top: 72px;
+  }
+  
+}
+
+.link-about {
+  text-decoration: none;
+  display: block;
+}
